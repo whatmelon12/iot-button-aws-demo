@@ -1,0 +1,21 @@
+{
+  "name": "iot_task",
+  "version": "1.0.0",
+  "description": "Create a new Aludra Task based on iot button props",
+  "main": "app.js",
+  "repository": "",
+  "author": "Omar Mejia",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "email-templates": "^6.0.0",
+    "nodemailer": "^6.3.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
